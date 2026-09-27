@@ -252,7 +252,7 @@ As a result:
 
 These limitations are part of the current project design.
 
-## 🔮 Future Development
+##  Future Development
 
 The system could later be extended with:
 
