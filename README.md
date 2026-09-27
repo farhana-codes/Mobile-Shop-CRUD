@@ -1,262 +1,176 @@
-# Mobile Shop Management – Python CRUD Project
+# Python Weekend Practice Collection
 
-A simple **console-based Mobile Shop Management System** developed in Python using CRUD (Create, Read, Update, Delete) operations.
+A set of **30 simple Python exercises** designed to build confidence with programming fundamentals. The collection covers numerical problems, string operations, decision-making, loops, functions, and basic pattern exercises.
 
-This project is designed to practice Python fundamentals such as functions, lists, loops, conditional statements, user input, and menu-driven programming.
+##  About the Project
 
-## 📌 Project Overview
+This repository is intended for regular beginner-level Python practice. Each exercise is kept in an individual `.py` file so that it can be opened, tested, and executed separately.
 
-The application allows a shop user to manage mobile phone records through a simple command-line menu.
+The programs focus on developing programming logic through short and practical problems. fileciteturn0file0L3-L7
 
-Each mobile record contains:
+##  Exercise List
 
-- Mobile ID
-- Brand
-- Model
-- Price
-- Quantity
+###  Working with Numbers
 
-The records are stored in a Python list while the program is running.
+| Program | Task |
+|---|---|
+| `1.py` | Determine whether a number is even or odd |
+| `2.py` | Identify whether a number is positive, negative, or zero |
+| `3.py` | Find the greater value between two numbers |
+| `4.py` | Find the greatest among three numbers |
+| `5.py` | Calculate the sum of natural numbers through `n` |
+| `6.py` | Display the multiplication table of a number |
+| `7.py` | Find the factorial of a number |
+| `8.py` | Determine how many digits a number contains |
+| `9.py` | Reverse the digits of a number |
+| `10.py` | Test whether a number is prime |
 
-## ✨ Features
+###  String Exercises
 
-### 1. Add Mobile
-Add a new mobile phone record by entering:
+| Program | Task |
+|---|---|
+| `11.py` | Find the length of a string |
+| `12.py` | Count vowels in a string |
+| `13.py` | Count consonants in a string |
+| `14.py` | Count both vowels and consonants |
+| `15.py` | Reverse a string using iteration and slicing |
+| `16.py` | Check if a string is a palindrome |
+| `17.py` | Calculate the number of words in a sentence |
+| `18.py` | Count occurrences of a selected character |
+| `19.py` | Remove blank spaces from a string |
+| `20.py` | Change a string to uppercase |
 
-- Mobile ID
-- Brand
-- Model
-- Price
-- Quantity
+###  Strings and Loops
 
-The program also checks whether the Mobile ID already exists before adding the record.
+| Program | Task |
+|---|---|
+| `21.py` | Count uppercase, lowercase, numeric characters, and spaces |
+| `22.py` | Display the first character of a string |
+| `23.py` | Display the final character of a string |
+| `24.py` | Print the characters of a string one by one |
+| `25.py` | Display every character together with its index |
+| `26.py` | Remove vowels from text |
+| `27.py` | Find the longest word in a sentence |
+| `28.py` | Count `a`, `e`, `i`, `o`, and `u` individually |
 
-### 2. Display All Mobiles
-Displays all available mobile records in a formatted table containing the ID, brand, model, price, and quantity.
+###  Pattern Exercises
 
-### 3. Search Mobile
-Search for a mobile using its unique Mobile ID and display its complete details.
+| Program | Task |
+|---|---|
+| `29.py` | Generate a basic star pattern |
+| `30.py` | Generate a basic number pattern |
 
-### 4. Update Mobile
-Update the brand, model, price, and quantity of an existing mobile using its Mobile ID.
+The original collection contains 30 programs across number, string, loop, and pattern categories. fileciteturn0file0L9-L10 fileciteturn0file0L54-L59
 
-### 5. Delete Mobile
-Delete an existing mobile record after confirming the deletion.
+##  Python Skills Covered
 
-### 6. Exit
-Exit the Mobile Shop Management System.
+By completing these exercises, you get practice with:
 
-## 🛠️ Technologies Used
-
-- **Python 3**
-- Lists
-- Functions
-- Loops
-- Conditional statements
-- Pattern matching (`match-case`)
-- User input
-- Basic data formatting
-
-No external Python libraries are required.
-
-## 📂 Project Structure
-
-```text
-crud/
-│
-├── codes/
-│   └── test.py
-│
-├── Scripts/
-│   └── Python virtual environment files
-│
-├── Lib/
-│   └── Python environment files
-│
-├── .gitignore
-├── pyvenv.cfg
-└── README.md
-```
-
-> The main application code is located in `codes/test.py`.
-
-## 🚀 How to Run
-
-### Step 1: Install Python
-
-Make sure Python 3 is installed on your computer.
-
-Check the installed version using:
-
-```bash
-python --version
-```
-
-or:
-
-```bash
-python3 --version
-```
-
-### Step 2: Open the Project
-
-Open the project folder in your terminal or code editor.
-
-Navigate to the folder containing `test.py`:
-
-```bash
-cd crud/codes
-```
-
-### Step 3: Run the Program
-
-Run:
-
-```bash
-python test.py
-```
-
-The Mobile Shop Management menu will appear in the terminal.
-
-## 🖥️ Main Menu
-
-When the program starts, it displays:
-
-```text
-=============================================
- MOBILE SHOP MANAGEMENT
-=============================================
-1. Add Mobile
-2. Display All Mobiles
-3. Search Mobile
-4. Update Mobile
-5. Delete Mobile
-6. Exit
-=============================================
-Enter your choice:
-```
-
-Choose an option by entering its corresponding number.
-
-## 📊 Example Record
-
-A mobile record is stored internally in the following format:
-
-```python
-[101, "Samsung", "Galaxy S24", 69999.00, 5]
-```
-
-The values represent:
-
-```text
-Mobile ID → 101
-Brand     → Samsung
-Model     → Galaxy S24
-Price     → 69999.00
-Quantity  → 5
-```
-
-## 🔄 CRUD Operations
-
-CRUD stands for:
-
-| Operation | Function | Purpose |
-|---|---|---|
-| Create | `add_mobile()` | Add a new mobile record |
-| Read | `display_mobiles()` / `search_mobile()` | View or search records |
-| Update | `update_mobile()` | Modify an existing record |
-| Delete | `delete_mobile()` | Remove a record |
-
-## 🧩 Functions Used
-
-The application is divided into separate functions to keep the program organized:
-
-```text
-add_mobile()
-display_mobiles()
-search_mobile()
-update_mobile()
-delete_mobile()
-dashboard()
-main()
-```
-
-### `add_mobile()`
-Creates and stores a new mobile record.
-
-### `display_mobiles()`
-Displays all stored mobile records in a formatted table.
-
-### `search_mobile()`
-Searches for a mobile using its ID.
-
-### `update_mobile()`
-Updates the details of an existing mobile.
-
-### `delete_mobile()`
-Removes a mobile record after confirmation.
-
-### `dashboard()`
-Displays the main menu and controls the program flow.
-
-### `main()`
-Starts the dashboard.
-
-## 🎯 Learning Objectives
-
-This project helps practice:
-
-- Creating and calling Python functions
-- Working with lists
-- Storing multiple records
-- Using `for` loops
-- Using `if-else` conditions
+- Variables and common data types
 - Taking input from users
-- Converting input into `int` and `float`
-- Searching data
-- Updating list elements
-- Removing elements from a list
-- Building menu-driven applications
-- Implementing basic CRUD operations
-- Using Python `match-case`
+- Arithmetic and comparison operations
+- `if`, `elif`, and `else`
+- `for` and `while` loops
+- Defining and using functions
+- String indexing and slicing
+- Built-in character-checking methods
+- Basic logical problem solving
+- Nested loops
+- Creating simple patterns
 
-## ⚠️ Current Limitations
+These are the main programming concepts represented in the original project. fileciteturn0file0L61-L76
 
-The current version stores all mobile records in a Python list.
+##  Requirements
 
-Therefore:
+You only need:
 
-- Data is stored only while the program is running.
-- Closing the program removes all records.
-- There is no database connection.
-- There is no graphical user interface.
-- Input validation for incorrect data types is limited.
+- **Python 3.x**
+- A Python-compatible editor or IDE
 
-## 🔮 Future Improvements
+No additional third-party packages are needed. fileciteturn0file0L78-L83
 
-The project can be improved by adding:
+##  Running the Programs
 
-- MySQL or SQLite database integration
-- Permanent data storage
-- Graphical user interface using Tkinter
-- Web interface using Flask or Django
-- Login and authentication
-- Better input validation
-- Stock alerts for low quantities
-- Sorting and filtering options
-- Sales and billing functionality
-- Customer management
-- Mobile category management
-- Reports and sales dashboards
+1. Install Python 3 on your system.
+2. Download or clone the project.
+3. Open the project directory in your terminal or preferred editor.
+4. Run the program you want to practice.
 
-## 📚 Project Purpose
+For example:
 
-This project was created as a practical Python programming project to understand how CRUD operations work in a simple management system.
+```bash
+python 1.py
+```
 
-It provides a foundation that can later be expanded into a complete **Mobile Shop Inventory and Management System**.
+You can replace `1.py` with any other exercise number.
 
-## 👨‍💻 Author
+For example:
 
-**Sanju Jana**
+```bash
+python 16.py
+```
 
-A Python CRUD project created for learning, practice, and understanding basic management-system development.
+After running a program, enter the requested values when prompted and view the result in the terminal. fileciteturn0file0L85-L104
+
+##  Folder Layout
+
+```text
+Python Weekend Practice/
+│
+├── 1.py
+├── 2.py
+├── 3.py
+├── ...
+├── 28.py
+├── 29.py
+└── 30.py
+```
+
+The project keeps each exercise as a separate Python file. fileciteturn0file0L106-L118
+
+##  Learning Goals
+
+The collection is designed to help learners:
+
+- Develop a solid understanding of Python basics
+- Improve logical thinking through small coding tasks
+- Become comfortable with conditions and loops
+- Practice handling numbers and text
+- Understand how functions can organize code
+- Gain hands-on experience solving beginner programming problems
+
+These objectives follow the learning goals stated for the original collection. fileciteturn0file0L120-L128
+
+##  Recommended For
+
+This project can be useful for:
+
+- Students beginning Python
+- College-level programming practice
+- Python laboratory exercises
+- Beginners working on logic-building
+- Anyone revising fundamental Python concepts
+
+The source project describes the collection as suitable for beginners, students, college practice, laboratory assignments, and basic logic building. fileciteturn0file0L131-L138
+
+##  Possible Additions
+
+Future versions could include more advanced topics such as:
+
+- Lists and tuples
+- Sets and dictionaries
+- Reading and writing files
+- Exception handling
+- Object-oriented programming
+- Recursive functions
+- Searching and sorting
+- Additional pattern exercises
+- Menu-based Python applications
+
+These areas were also identified as possible extensions of the original collection. fileciteturn0file0L141-L152
+
+##  Author
+
+**Farhana Sultana**
+
+A beginner-focused collection of Python exercises created for regular practice and improving programming fundamentals.
