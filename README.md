@@ -2,7 +2,7 @@
 
 A beginner-friendly **command-line Mobile Store Inventory System** built with Python. The project demonstrates the basic CRUD model: Create, Read, Update, and Delete.
 
-The application is mainly intended to practice Python concepts including functions, lists, loops, conditions, user input, and menu-based program flow. fileciteturn1file0L3-L5
+The application is mainly intended to practice Python concepts including functions, lists, loops, conditions, user input, and menu-based program flow. 
 
 ##  Project Description
 
@@ -16,7 +16,7 @@ Each record stores the following information:
 - Price
 - Quantity
 
-The records are maintained inside a Python list during program execution. fileciteturn1file0L7-L19
+The records are maintained inside a Python list during program execution. 
 
 ##  Available Operations
 
@@ -52,7 +52,7 @@ An existing record can be deleted after the user confirms the action.
 
 The Exit option terminates the Mobile Store Management program.
 
-These operations correspond to the CRUD functionality described in the original project. fileciteturn1file0L21-L47
+These operations correspond to the CRUD functionality described in the original project. 
 
 ##  Tools and Concepts
 
@@ -67,7 +67,7 @@ The project uses:
 - User input
 - Basic output formatting
 
-No external Python packages are needed. fileciteturn1file0L49-L60
+No external Python packages are needed. 
 
 ##  Project Layout
 
@@ -88,7 +88,7 @@ mobile-store-crud/
 └── README.md
 ```
 
-The primary application file is `codes/test.py`. fileciteturn1file0L62-L81
+The primary application file is `codes/test.py`. 
 
 ##  Running the Application
 
@@ -126,7 +126,7 @@ Run:
 python test.py
 ```
 
-The management menu will then appear in the terminal. fileciteturn1file0L83-L119
+The management menu will then appear in the terminal. 
 
 ##  Application Menu
 
@@ -146,7 +146,7 @@ When the application starts, the user is presented with options similar to:
 Enter your choice:
 ```
 
-Enter the number associated with the operation you want to perform. fileciteturn1file0L121-L139
+Enter the number associated with the operation you want to perform. 
 
 ##  Sample Mobile Record
 
@@ -166,7 +166,7 @@ Price     → 69999.00
 Quantity  → 5
 ```
 
-This follows the five fields used by the original application. fileciteturn1file0L141-L159
+This follows the five fields used by the original application. 
 
 ##  Understanding CRUD
 
@@ -179,7 +179,7 @@ CRUD is an abbreviation for four common data-management operations:
 | Update | `update_mobile()` | Changes an existing record |
 | Delete | `delete_mobile()` | Removes a record |
 
-The project implements these four operations through separate functions. fileciteturn1file0L159-L169
+The project implements these four operations through separate functions. 
 
 ##  Main Functions
 
@@ -216,7 +216,7 @@ Controls the menu and guides the user through the available operations.
 ### `main()`
 Starts the application by calling the dashboard.
 
-The original project uses these functions to divide the application into manageable sections. fileciteturn1file0L170-L203
+The original project uses these functions to divide the application into manageable sections. 
 
 ##  Learning Outcomes
 
@@ -236,7 +236,7 @@ Working on this project provides practice with:
 - Applying CRUD concepts
 - Using Python `match-case`
 
-These learning areas are based on the objectives listed in the source README. fileciteturn1file0L205-L221
+These learning areas are based on the objectives listed in the source README. 
 
 ##  Known Limitations
 
@@ -250,7 +250,7 @@ As a result:
 - There is no graphical user interface.
 - Validation for incorrect input types is limited.
 
-These limitations are part of the current project design. fileciteturn1file0L223-L233
+These limitations are part of the current project design.
 
 ## 🔮 Future Development
 
@@ -269,13 +269,13 @@ The system could later be extended with:
 - Mobile categories
 - Sales and inventory reports
 
-These improvements would turn the basic CRUD application into a more complete shop-management solution. fileciteturn1file0L235-L250
+These improvements would turn the basic CRUD application into a more complete shop-management solution. 
 
 ##  Project Goal
 
 The purpose of this project is to provide practical experience with Python CRUD programming through a small mobile-store example.
 
-It can serve as a starting point for developing a larger **Mobile Inventory and Shop Management System**. fileciteturn1file0L252-L257
+It can serve as a starting point for developing a larger **Mobile Inventory and Shop Management System**. 
 
 ##  Author
 
